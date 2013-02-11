@@ -1,0 +1,40 @@
+.klpbc .list
+{
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0px;
+    background-color: #FCFBFA;
+}
+
+.klpbc .list th
+{
+    padding-left: 10px;
+    padding-right: 15px;
+    background-image: none;
+    border:none;
+    border-right: 1px solid #ececec;
+    background-color: #f4f4f4;
+}
+
+.klpbc .list th.secondrow
+{
+    border-left: 1px solid #ececec;
+}
+
+.klpbc .list td
+{
+    border-top: 1px solid #ececec;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.klpbc .error
+{
+    color: red;
+}
+
+.klpbc .currentvideo
+{
+    margin-top: 1.5em;
+}

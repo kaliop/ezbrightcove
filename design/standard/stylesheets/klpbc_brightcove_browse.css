@@ -1,0 +1,158 @@
+.klpbc_video_input_block label
+{
+    display: inline;
+}
+
+/* Brightcove browse */
+.yui3-skin-sam .klpbc_browse_panel.yui3-panel-content .yui3-widget-bd
+{
+    position: relative;
+    padding: 10px 10px 10px 5px;
+}
+
+.klpbc_browse_video table
+{
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.klpbc_browse_video h3
+{
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.klpbc_browse_video p
+{
+    color: #666;
+    margin: 0;
+}
+
+.klpbc_browse_panel .klpbc-loader div
+{
+    top: 300px;
+    left: 48%;
+}
+
+/* Search box */
+.klpbc_browse_panel .search-container
+{
+    width: 471px;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 1px; /* To make it visually align */
+}
+
+.klpbc_browse_panel .search-container input.searchinput
+{
+    width: 368px;
+    height: 26px;
+    padding: 1px 5px;
+    float: left;
+    font-size: 15px;
+    border: 0;
+    background: #FAFAFA;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.klpbc_browse_panel .search-container input.defaultbutton
+{
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 92px;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.klpbc_browse_panel .video
+{
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 314px;
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+    height: 128px;
+}
+
+.klpbc_browse_panel .video:hover
+{
+    background-color: #EDF5FF;
+    cursor: pointer;
+}
+
+.klpbc_browse_panel .video:active
+{
+    box-shadow: 0px 0px 73px 0px #EEE inset;
+}
+
+.klpbc_browse_panel .video .name
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.klpbc_browse_panel .video .name .separator
+{
+    font-size: 14px;
+}
+
+.klpbc_browse_panel .video .name .length
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.klpbc_browse_panel .video img
+{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.klpbc_browse_panel .video .description
+{
+    height: 74px;
+    overflow-y: auto;
+}
+
+.klpbc_browse_panel .video button
+{
+    display: block;
+    clear: both;
+}
+
+/* Browse Video Paginator */
+.klpbc_browse_panel .paginator
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.klpbc_browse_panel .paginator .page
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}

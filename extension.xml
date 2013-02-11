@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+	<metadata>
+		<name>eZ Brightcove</name>
+		<version>1.0</version>
+		<copyright>Copyright (C) 2013 Kaliop</copyright>
+        <license>GNU General Public License v2</license>
+
+        <software>
+            <uses>
+                <name>Brightcove PHP MAPI Wrapper</name>
+                <license>MIT License</license>
+                <info_url>http://opensource.brightcove.com</info_url>
+                <version>2.0.4</version>
+            </uses>
+            <uses>
+                <name>Mustache.js</name>
+                <license>MIT License</license>
+                <info_url>https://github.com/janl/mustache.js</info_url>
+                <version>0.7.2</version>
+            </uses>
+            <uses>
+                <name>TreeView (gallery-yui3treeview-ng)</name>
+                <license>YUI BSD License</license>
+                <info_url>http://yuilibrary.com/gallery/show/yui3treeview-ng</info_url>
+                <version>gallery-2012.08.29-20-10</version>
+            </uses>
+        </software>
+	</metadata>
+
+    <dependencies>
+        <requires>
+            <extension name="ezjscore" />
+        </requires>
+    </dependencies>
+</software>

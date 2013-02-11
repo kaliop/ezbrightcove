@@ -1,0 +1,22 @@
+/**
+ * Common css rules used by multiple input types.
+ */
+
+/* Loader icon */
+.klpbc-loader
+{
+    position: relative;
+}
+.klpbc-loader div
+{
+    display: none;
+    background-image: url(../images/klpbc-loader.gif);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    -moz-background-size:20px 20px; /* Firefox 3.6 */
+    background-size:20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

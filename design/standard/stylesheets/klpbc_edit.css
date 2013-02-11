@@ -1,0 +1,32 @@
+.ezcca-edit-datatype-klpbc label.klpbc-input-type
+{
+  display: inline;
+}
+
+
+.ezcca-edit-datatype-klpbc .block.klpbc-input-selector
+{
+    background-color: #EFEEED;
+    border-top: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0.75em;
+    margin-bottom: 0;
+}
+
+.ezcca-edit-datatype-klpbc .klpbc-input-types
+{
+    border: 1px solid #DADADA;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1em;
+    margin-top: 0;
+    background-color: #FCFBFA;
+}
+
+.ezcca-edit-datatype-klpbc .klpbc-input-types div.block
+{
+    padding: 0;
+}

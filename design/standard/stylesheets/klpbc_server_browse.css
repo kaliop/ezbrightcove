@@ -1,0 +1,93 @@
+.klpbc_browse_server_panel .klpbc-loader div
+{
+    top: 250px;
+    left: 48%;
+}
+
+.tree-container ul {
+    margin: 0;
+}
+
+.klpbc_browse_server_panel .tree-container
+{
+    overflow-y: auto;
+    height: 100%;
+}
+
+.klpbc_browse_server_panel .tree-container .yui3-treeview
+{
+    padding-left: 1px; /* Comensate for selection border thickness */
+}
+
+.klpbc_browse_server_panel .yui3-treenode-toggle-control
+{
+    display: block;
+}
+
+.klpbc_browse_server_panel .yui3-treenode img
+{
+    padding-right: 5px;
+    margin-top: 0px;
+    display: block;
+    float: left;
+}
+
+.klpbc_browse_server_panel .yui3-treenode-label:hover
+{
+    background-color: #EDF5FF !important;
+    border: 1px solid #B5D6FF;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: -1px; /* Compensate for border thickness */
+}
+.klpbc_browse_server_panel .yui3-treenode-leaf.yui3-checkboxtreenode-focused .yui3-treenode-label:hover
+{
+    border: none !important;
+    margin-left: 0px; /* Compensate for border thickness */
+}
+
+.klpbc_browse_server_panel .yui3-treenode-label:hover .size
+{
+    padding-right: 8px; /* Compensate for border thickness */
+}
+
+.klpbc_browse_server_panel .yui3-treenode-leaf.yui3-checkboxtreenode-focused
+{
+    background-color: #EDF5FF;
+    background-image: none;
+    border: 1px solid #B5D6FF;
+    margin-left: -1px; /* Compensate for border thickness */
+    border-radius: 4px;
+    outline: 0;
+}
+
+.klpbc_browse_server_panel .yui3-treenode-leaf.yui3-checkboxtreenode-focused a
+{
+    /* Decrease to compensate for selection border. This prevents the selection
+     * from changing size.*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.klpbc_browse_server_panel .yui3-treenode-leaf.yui3-checkboxtreenode-focused a .size
+{
+    /* Decrease to compensate for selection border. Prevents it from "jumping
+     * around" when selecting/deselecting */
+    padding-right: 9px;
+}
+
+.klpbc_browse_server_panel .yui3-treenode a
+{
+    outline: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.klpbc_browse_server_panel .yui3-treenode .size
+{
+    color: #666;
+    display: inline-block;
+    float: right;
+    padding-right: 9px;
+}

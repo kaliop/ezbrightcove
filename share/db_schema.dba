@@ -1,0 +1,148 @@
+<?php
+// This array contains the database schema
+$schema = array (
+  'ezx_klpbc_serverfile' => 
+  array (
+    'name' => 'ezx_klpbc_serverfile',
+    'fields' => 
+    array (
+      'contentobject_attribute_id' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'filepath' => 
+      array (
+        'length' => 4096,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'version' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+    ),
+    'indexes' => 
+    array (
+      'PRIMARY' => 
+      array (
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'contentobject_attribute_id',
+          1 => 'version',
+        ),
+      ),
+    ),
+  ),
+  'ezx_klpbc_video' => 
+  array (
+    'name' => 'ezx_klpbc_video',
+    'fields' => 
+    array (
+      'brightcove_id' => 
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'contentobject_attribute_id' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'created' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'error_log' => 
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'input_type_identifier' => 
+      array (
+        'length' => 255,
+        'type' => 'varchar',
+        'not_null' => '1',
+        'default' => '',
+      ),
+      'modified' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'need_meta_update' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'state' => 
+      array (
+        'length' => 1,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+      'version' => 
+      array (
+        'length' => 11,
+        'type' => 'int',
+        'not_null' => '1',
+        'default' => 0,
+      ),
+    ),
+    'indexes' => 
+    array (
+      'PRIMARY' => 
+      array (
+        'type' => 'primary',
+        'fields' => 
+        array (
+          0 => 'contentobject_attribute_id',
+          1 => 'version',
+        ),
+      ),
+      'meta_index' => 
+      array (
+        'type' => 'non-unique',
+        'fields' => 
+        array (
+          0 => 'need_meta_update',
+        ),
+      ),
+      'state_index' => 
+      array (
+        'type' => 'non-unique',
+        'fields' => 
+        array (
+          0 => 'state',
+        ),
+      ),
+    ),
+  ),
+  '_info' => 
+  array (
+    'format' => 'generic',
+  ),
+);
+
+?>
