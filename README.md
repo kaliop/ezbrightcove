@@ -22,14 +22,25 @@ administration interface.
 
 ![](https://raw.github.com/kaliop/ezbrightcove/master/doc/screenshots/upload.png)
 
+Editing a Brightcove Media object in the eZ Publish administration interface
+with a video selected.
+
+![](https://raw.github.com/kaliop/ezbrightcove/master/doc/screenshots/edit_with_video.png)
+
+Browse and search your Brightcove Media Library straight from within the
+editing interface.
+
+![](https://raw.github.com/kaliop/ezbrightcove/master/doc/screenshots/browse_brightcove.png)
+
 Browse videos uploaded to your web server from the administration interface and
 upload them directly to Brightcove.
 
 ![](https://raw.github.com/kaliop/ezbrightcove/master/doc/screenshots/server.png)
 
-Viewing a Brightcove Media object in the eZ Publish administration interface
+Viewing a Brightcove Media object in the eZ Publish administration interface.
 
 ![](https://raw.github.com/kaliop/ezbrightcove/master/doc/screenshots/view.png)
+
 
 
 License
