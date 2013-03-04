@@ -19,7 +19,7 @@
  * # If video was successfully processed:
  * $queue->move( $video, true );
  * # else
- * $queue->move( $video, true );
+ * $queue->move( $video, false );
  *
  * # Time to delete video
  * $queue->delete( $video );
