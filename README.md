@@ -11,7 +11,7 @@ videos from your Brightcove Media Library into eZ Publish.
 Installation
 ------------
 
-Please see the installation documentation inside doc/INSTALL.md for how to
+Please see the installation documentation inside [doc/INSTALL.md](https://github.com/kaliop/ezbrightcove/blob/master/doc/INSTALL.md) for how to
 install this extension
 
 Screenshots
@@ -46,5 +46,5 @@ Viewing a Brightcove Media object in the eZ Publish administration interface.
 License
 -------
 
-Please see the license file LICENSE in the root of the extension for license
+Please see the license file [LICENSE](https://github.com/kaliop/ezbrightcove/blob/master/LICENSE) in the root of the extension for license
 details.
