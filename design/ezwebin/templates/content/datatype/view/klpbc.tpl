@@ -2,7 +2,7 @@
      $video=$attribute.content
      $options=$attribute.contentclass_attribute.content}
 
-{if and( $video.latest_video, $video.brightcove_id )}
+{if and( $video.latest_video, $video.latest_video.brightcove_id )}
     <div class="block">
         {include uri='design:klpbc/player.tpl'
                  klpbc_bgcolor = $options.playerBgColor
