@@ -110,7 +110,7 @@ and hence eZ Brightcove will upload the video to Brightcove for processing.
 already sourced from Brightcove and hence are in a web suitable format already.
 
 To get started writing your own input type it's easiest to look at one of the
-existing ones. `Source video form Brightcove` is a great starting point:
+existing ones. `Source video from Brightcove` is a great starting point:
 
 - [klpBcServerFileVideoInputType](https://github.com/kaliop/ezbrightcove/blob/master/classes/videoinputs/klpbcserverfilevideoinputtype.php)
 - [kloBcServerFile (the persistent object)](https://github.com/kaliop/ezbrightcove/blob/master/classes/klpbcserverfile.php)
