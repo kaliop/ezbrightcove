@@ -39,6 +39,9 @@
  * IN ANY MANNER FOR USE OF THE SOFTWARE.  THE SOFTWARE IS PROVIDED FOR YOUR
  * CONVENIENCE AND ANY USE IS SOLELY AT YOUR OWN RISK.  NO MAINTENANCE AND/OR
  * SUPPORT OF ANY KIND IS PROVIDED FOR THE SOFTWARE.
+ *
+ * @license https://github.com/BrightcoveOS/PHP-MAPI-Wrapper/blob/master/bc-mapi.php
+ * @copyright https://github.com/BrightcoveOS/PHP-MAPI-Wrapper/blob/master/bc-mapi.php
  */
 
 class BCMAPI
