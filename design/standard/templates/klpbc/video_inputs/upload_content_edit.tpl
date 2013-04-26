@@ -1,4 +1,4 @@
-{ezcss_require( array( 'klpbc_common.css', 'klpbc_upload.css' ) )}
+{ezcss_require( array( 'klpbc_common.css' ) )}
 {ezscript_require( array( 'klpbc_upload.js' ) )}
 <div id="{$html_id}" class="klpbc_video_input_block">
     {def $original_video=$attribute.content.original_video}
