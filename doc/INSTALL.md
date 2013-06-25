@@ -26,7 +26,7 @@ eZ Publish clustering is supported.
         ApiReadToken=
         ApiWriteToken=
 
-        /* ?>
+        */ ?>
 
     You can find these under `Account Settings` -> `API Management` when logged in
     to Brightcove's Video Cloud.
